@@ -1,0 +1,57 @@
+@use "vars";
+
+.footer {
+  background-color: vars.$Bg-Footer;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-top: 64px;
+  position: relative;
+  .footer__up {
+    position: absolute;
+    top: -10px;
+    cursor: pointer;
+    a {
+      padding: 16px;
+      border-radius: 45%;
+      background-color: vars.$White;
+      transition: all 0.5s;
+      text-decoration: none;
+      color: vars.$Black;
+    }
+    a:hover {
+      background-color: vars.$Green;
+      color: vars.$White;
+    }
+  }
+  .footer__up:hover {
+    background-color: vars.$Green;
+    color: vars.$White;
+  }
+  .footer__redes {
+    font-size: 1.8em;
+    a {
+      text-decoration: none;
+      color: vars.$White;
+    }
+    .redes__item {
+      background-color: vars.$Bg-Redes;
+      margin: 16px;
+      padding: 16px;
+      transition: all 0.5s;
+    }
+    .redes__item:hover {
+      background-color: vars.$Green;
+    }
+  }
+  .footer__name {
+    color: vars.$Grey;
+    margin-top: 24px;
+    padding-bottom: 24px;
+    text-transform: uppercase;
+    span {
+      color: vars.$Red;
+    }
+  }
+}

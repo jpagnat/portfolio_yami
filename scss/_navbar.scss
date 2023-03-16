@@ -1,0 +1,34 @@
+@use "vars";
+
+.nav {
+  background-color: vars.$Black;
+  border-bottom: 4px solid vars.$Green;
+  color: vars.$White;
+  font-weight: 700;
+  .nav__lista {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    list-style: none;
+    height: 60px;
+    border-top: 0.5px solid vars.$Green;
+    .nav__item {
+      a {
+        text-decoration: none;
+        color: vars.$White;
+        text-transform: uppercase;
+      }
+      a:hover {
+        color: vars.$Red;
+        transition: all 0.5s;
+      }
+    }
+  }
+}
+
+.sticky {
+  position: fixed;
+  z-index: 1000;
+  top: 0;
+  width: 100%;
+}
