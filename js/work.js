@@ -1,5 +1,15 @@
 const proyectos = [
   {
+    title: "Proyecto Testing QA",
+    img: "./img/proyectos/testing.jpg",
+    description: "Testing QA",
+    back: "",
+    page: "https://drive.google.com/drive/folders/1mYKiV_egmz2vLBcu2TdYvo_G3iSHUDt9?usp=sharing",
+    github:
+      "https://www.coderhouse.es/certificados/657f89536b3a5a4317597920?lang=es",
+    tecnologias: "",
+  },
+  {
     title: "Zab! DECO",
     img: "./img/proyectos/zab.png",
     description: "Community Manager",
